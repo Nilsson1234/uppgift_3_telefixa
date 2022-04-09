@@ -263,10 +263,11 @@ width: 50%;
 }
 #rep_mobiler {
 display: flex;
+justify-content: center;
 }
 #rep_mobiler img{
 display: flex;
-width: 900px;
+width: 400px;
 max-width: 90%;
 }
 
