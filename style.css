@@ -70,7 +70,7 @@ body {
 .drop_menu li a {
 	padding:19px 18px 19px 18px;
 	display:block;
-	color:#fff;
+	color:rgb(255, 255, 255);
 	text-decoration:none;
     font-size: 18px;
 	font-family: "Inter", Sans-serif;
@@ -78,6 +78,7 @@ body {
     font-weight: 900;
     letter-spacing: 1px;
     height: 22px;
+    text-shadow: 0px 0px 4px rgb(58, 97, 204);
 }
 
 /* Submenu */
@@ -91,12 +92,12 @@ body {
     text-align: center;
     justify-content: center;
     
-    
 }
 .drop_menu li ul li a{
     text-indent:15px;
     width: auto;
     transition: 250ms;
+    
 }
 .drop_menu li:hover { 
     position:relative; 
